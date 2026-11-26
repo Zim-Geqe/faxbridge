@@ -1,0 +1,1 @@
+Paused Android work (not compiled). Drafts for the android-companion spec: outbox, FCM sender, inbox helpers, migration 002. Resume after the VPS deployment: move back into server/src and server/migrations, install firebase-admin and @fastify/cors.

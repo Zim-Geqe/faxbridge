@@ -19,3 +19,6 @@ Default is a deterministic heuristic extractor. To use any OpenAI-compatible end
 
 ## Layout
 `server/` Fastify API + worker · `web/` React app · `.kiro/` specs, steering, hooks.
+
+## For contributors
+Frontend team: see [docs/FRONTEND_HANDOFF.md](docs/FRONTEND_HANDOFF.md). Android is paused (drafts in paused/android/, spec in .kiro/specs/android-companion/). License: MIT.
