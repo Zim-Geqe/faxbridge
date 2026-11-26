@@ -1,0 +1,8 @@
+Referral Letter
+From: Dr. Maria Okafor (SYNTHETIC SAMPLE)
+To: Riverside Radiology
+Date: 2026-03-14
+Reference: REF-20413
+Amount: $120.00
+
+Please see the attached patient for a chest X-ray. This is synthetic demo data.

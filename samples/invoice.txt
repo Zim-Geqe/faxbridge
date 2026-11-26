@@ -1,0 +1,6 @@
+INVOICE
+From: Northwind Supplies (SYNTHETIC SAMPLE)
+To: Riverside Clinic
+Invoice No: INV-88231
+Date: 14/03/2026
+Total: $1,482.50

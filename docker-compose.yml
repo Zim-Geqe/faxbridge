@@ -1,0 +1,17 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: faxbridge
+      POSTGRES_PASSWORD: faxbridge
+      POSTGRES_DB: faxbridge
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U faxbridge"]
+      interval: 3s
+      retries: 20
+volumes:
+  pgdata:

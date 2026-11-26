@@ -1,0 +1,15 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Run tests after spec task",
+      "trigger": "PostTaskExec",
+      "description": "Run the full test suite after each completed spec task",
+      "action": {
+        "type": "command",
+        "command": "npm test --silent",
+        "timeout": 180
+      }
+    }
+  ]
+}

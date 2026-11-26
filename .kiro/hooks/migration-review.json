@@ -1,0 +1,15 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Review new migrations",
+      "trigger": "PostFileCreate",
+      "description": "Agent review of new SQL migrations against architecture and security steering",
+      "matcher": "server/migrations/.*\\.sql$",
+      "action": {
+        "type": "agent",
+        "prompt": "A migration was created. Check it is append-only (does not edit earlier migrations), portable Postgres SQL, has org_id scoping where relevant, indexes for queue claim columns, and does not grant UPDATE/DELETE on audit_events. Fix problems before continuing."
+      }
+    }
+  ]
+}
